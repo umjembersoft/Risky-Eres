@@ -1,0 +1,47 @@
+http://ownskin.com/
+= nama situs web atau alamat url
+----------------------------------------------------------------------------
+
+GET / HTTP/1.1
+= mengirimkan perinth ke HTTP server
+----------------------------------------------------------------------------
+
+Host: ownskin.com
+= alamat 4shared yang akan di tuju
+----------------------------------------------------------------------------
+
+User-Agent: Mozilla/5.0 (Windows NT 6.1; rv:25.0) Gecko/20100101 Firefox/25.0
+= suatu aplikasi yang untuk membuka situs ownskin
+----------------------------------------------------------------------------
+
+
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cookie: __utma=134127248.1162313755.1377249475.1379092661.1380616411.4; __utmz=134127248.1379092661.3.2.utmcsr=www7.ownskin.com|utmccn=(referral)|utmcmd=referral|utmcct=/create_make_theme; cke.theme.model=365; cke.login2=bobangh; cke.key2=12025bf790cdcad26fba99ff785a45d3; ASPSESSIONIDSCCARDQB=AJHLFNDBFKIMKMBKJJDPPKBL; __utmb=134127248.1.10.1380616411; __utmc=134127248
+Connection: keep-alive
+
+
+HTTP/1.1 200 OK
+= dari server merespon kiriman untuk membuka akun ownskin
+-----------------------------------------------------------------------------
+
+Cache-Control: private
+
+
+Date: Tue, 01 Oct 2013 08:33:51 GMT
+= waktu merespon dari server
+-----------------------------------------------------------------------------
+
+Content-Type: text/html
+
+Server: Microsoft-IIS/6.0
+= sebuah nama web server yang bertanggung jawab pada request-response HTTP dan logging informasi secara detail(kegunaan basicnya)
+---------------------------------------------------------------------------------------------------------------------------------
+
+
+Content-Encoding: gzip
+
+Vary: Accept-Encoding
+
+Transfer-Encoding: chunked
